@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>StudentManagementSystem</RootNamespace>
+    <AssemblyName>StudentManagementSystem</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.104.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="ExcelManager.cs" />
+    <Compile Include="Models\Student.cs" />
+    <Compile Include="Models\Grade.cs" />
+    <Compile Include="Services\StudentService.cs" />
+    <Compile Include="Services\GradeService.cs" />
+    <Compile Include="Forms\MainForm.cs" />
+    <Compile Include="Forms\StudentForm.cs" />
+    <Compile Include="Forms\GradesForm.cs" />
+    <Compile Include="Forms\GradeForm.cs" />
+  </ItemGroup>
+</Project>

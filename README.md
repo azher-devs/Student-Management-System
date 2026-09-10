@@ -94,8 +94,13 @@ StudentManagementSystem/
 ├── Forms/
 │   ├── MainForm.cs             # Main student list and actions
 │   ├── StudentForm.cs          # Add/edit student dialog
-│   ├── GradesForm.cs            # Grades list for a selected student
-│   └── GradeForm.cs             # Add/edit grade dialog
+│   ├── GradesForm.cs           # Grades list for a selected student
+│   ├── GradeForm.cs            # Add/edit grade dialog
+│   ├── MainForm.resx           # Windows Forms resource file
+│   └── StudentForm.resx        # Windows Forms resource file
 ├── docs/                       # User flow, ERD, UI, and Excel screenshots
-└── StudentManagementSystem.csproj
+├── StudentManagementSystem.csproj
+├── StudentManagementSystem.slnx
+├── .gitignore
+└── README.md
 ```

@@ -1,0 +1,14 @@
+# Visual Studio user settings
+.vs/
+*.suo
+*.user
+
+# .NET build output
+bin/
+obj/
+
+# Local environment and signing secrets
+.env
+.env.*
+*.pfx
+*.snk
